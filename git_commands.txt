@@ -1,0 +1,41 @@
+# Git Commands and Functions
+
+1. `git init`: Initializes a new Git repository in the current directory.
+
+2. `git clone [repository]`: Creates a copy of a repository from a specified URL.
+
+3. `git add [file]`: Adds changes in the working directory to the staging area.
+
+4. `git commit -m "message"`: Commits the changes in the staging area with a descriptive message.
+
+5. `git status`: Displays the current status of the working directory.
+
+6. `git log`: Shows a log of commits, with commit messages and details.
+
+7. `git branch`: Lists all branches in the repository.
+
+8. `git branch [branch-name]`: Creates a new branch with the specified name.
+
+9. `git checkout [branch-name]`: Switches to the specified branch.
+
+10. `git merge [branch]`: Merges changes from the specified branch into the current branch.
+
+11. `git remote -v`: Lists all remote repositories along with their URLs.
+
+12. `git remote add [remote-name] [remote-url]`: Adds a new remote repository.
+
+13. `git pull [remote] [branch]`: Fetches changes from a remote repository and merges them into the current branch.
+
+14. `git push [remote] [branch]`: Pushes local commits to a remote repository.
+
+15. `git diff`: Shows the differences between the working directory and the last commit.
+
+16. `git reset [file]`: Unstages the specified file, keeping the changes in the working directory.
+
+17. `git rm [file]`: Removes a file from both the working directory and the staging area.
+
+18. `git tag [tag-name]`: Creates a lightweight tag for the current commit.
+
+19. `git fetch [remote]`: Fetches changes from a remote repository without merging them.
+
+20. `git stash`: Temporarily saves changes that are not ready to be committed, allowing you to switch branches.
